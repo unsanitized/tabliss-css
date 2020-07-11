@@ -1,0 +1,39 @@
+.Quote {
+  animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.Time {
+  margin-bottom: 5%;
+  animation: growIn ease 1s;
+}
+
+@keyframes growIn {
+  0% {
+   font-size: 36px;
+  }
+  30% {
+   font-size: 39px;
+  }
+  100% {
+   font-size: 36px;
+  }
+}
+
+.Colour {
+  animation: bgAnimation ease 3s;
+}
+
+@keyframes bgAnimation {
+    0%     {background-color:#000;}
+    30%    {background-color:#2e3440;} 
+    100.0%  {background-color:#3B4252;}
+}
